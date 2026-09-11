@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 # Swatchbeat — Internet Time (@beats)
-# Version 1.0.0
+# Version 1.0.1
 # BMT = UTC+1, no DST. 1 beat = 86.4 seconds.
 use strict;
 use warnings;

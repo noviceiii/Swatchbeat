@@ -1,6 +1,6 @@
 #!/bin/sh
 # Swatchbeat — Internet Time (@beats) for the shell
-# Version 1.0.0
+# Version 1.0.1
 # BMT = UTC+1, no DST. 1 beat = 86.4 seconds.
 
 set -eu

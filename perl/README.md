@@ -2,7 +2,9 @@
 
 Pure Perl CLI for Internet Time (`@beats`). No non-core modules.
 
-Version **1.0.0**. Project lineage since **1999**.
+**Internet Time was invented by Swatch.**
+
+Version **1.0.1**. Project lineage since **1999**.
 
 ## Run
 
@@ -20,4 +22,4 @@ Times for `--clock` are **BMT (UTC+1)**. Output beat format: `@000.00`.
 
 ## Download
 
-[swatchbeat-perl-1.0.0.zip](https://github.com/noviceiii/Swatchbeat/releases/download/1.0.0/swatchbeat-perl-1.0.0.zip)
+[swatchbeat-perl-1.0.1.zip](https://github.com/noviceiii/Swatchbeat/releases/download/1.0.1/swatchbeat-perl-1.0.1.zip)

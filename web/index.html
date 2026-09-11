@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swatchbeat — Internet Time</title>
+  <meta name="description" content="Swatch Internet Time (@beats) — live clock and converters between ordinary time and Swatch beats.">
+  <meta name="theme-color" content="#f4f4f5">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="kicker">Internet Time</p>
+    <h1>Swatchbeat</h1>
+    <p class="lede">
+      One day, a thousand <strong>@beats</strong>, same number everywhere
+      (Biel Mean Time, UTC+1, no DST).
+    </p>
+
+    <div class="hero" aria-live="polite">
+      <p class="beat" data-sb-beat>@000.00</p>
+      <div class="meta">
+        <span>Local <strong data-sb-local>—</strong></span>
+        <span data-sb-utc>—</span>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="panel">
+        <h2>Clock → Beat</h2>
+        <label for="sb-clock">Time in BMT / UTC+1</label>
+        <input id="sb-clock" data-sb-clock-in type="text" inputmode="numeric"
+               placeholder="14:30 or 14:30:00" autocomplete="off">
+        <p class="out" data-sb-clock-out></p>
+      </div>
+      <div class="panel">
+        <h2>Beat → Clock</h2>
+        <label for="sb-beat">Beat (@0–@999)</label>
+        <input id="sb-beat" data-sb-beat-in type="text" inputmode="decimal"
+               placeholder="@500" autocomplete="off">
+        <p class="out" data-sb-beat-out></p>
+      </div>
+    </div>
+
+    <p class="note">
+      Based on Swatch Internet Time.
+      Live Creabyte version:
+      <a href="https://www.creabyte.com/swatchbeat" rel="noopener noreferrer">creabyte.com/swatchbeat</a>
+    </p>
+  </main>
+  <script src="swatchbeat.js" defer></script>
+</body>
+</html>

@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
+# Swatchbeat — Internet Time (@beats)
+# Version 1.0.0
+# BMT = UTC+1, no DST. 1 beat = 86.4 seconds.
 use strict;
 use warnings;
-use Time::Local qw(timegm);
-
-# Swatchbeat — Internet Time (@beats)
-# BMT = UTC+1, no DST. 1 beat = 86.4 seconds.
 
 sub usage {
     print <<'USAGE';

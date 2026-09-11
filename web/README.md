@@ -2,6 +2,8 @@
 
 Standalone page: live `@beat` clock plus Clock ↔ Beat converters.
 
+Version **1.0.0**. The Creabyte classic has been online since **1999**.
+
 ## Run
 
 Open `index.html` in a browser, or serve the folder:
@@ -11,6 +13,12 @@ python3 -m http.server 8080
 ```
 
 Then open http://localhost:8080
+
+GitHub Pages: https://noviceiii.github.io/Swatchbeat/
+
+## Download
+
+[swatchbeat-web-1.0.0.zip](https://github.com/noviceiii/Swatchbeat/releases/download/1.0.0/swatchbeat-web-1.0.0.zip)
 
 ## Live reference
 
